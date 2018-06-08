@@ -3,7 +3,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+a:link{
+  text-decoration: none;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -93,10 +95,10 @@ body {
 
 .header-bar {
   display: block;
-  padding: 5px 10px;
+  padding: 5px 10px 10px;
   color: #fff;
   text-align: left;
-  background-color: #848482;
+  background-color: #37474F;
 }
 
 .header-bar .address {
